@@ -10,6 +10,7 @@ public class LinkedListMain
          ll.add(3);
          ll.add(4);
          ll.add(5);
+         ll.add(6);
 
          ll.display();
      }
