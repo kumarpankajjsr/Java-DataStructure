@@ -4,15 +4,13 @@ public class LinkedListMain
 {
      public static void main(String[] args)
      {
-         LinkedList ll = new LinkedList();
-         ll.add(1);
-         ll.add(2);
-         ll.add(3);
-         ll.add(4);
-         ll.add(5);
-         ll.add(6);
+         LinkedListRecursion ll = new LinkedListRecursion();
+         ll.insertNode(1);
+         ll.insertNode(2);
+         ll.insertNode(3);
+         ll.insertNode(4);
 
-         ll.display();
+         //ll.display();
      }
 
 }
